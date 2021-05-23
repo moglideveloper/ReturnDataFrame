@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JepHelloSparkExample" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="PATH" value="$USER_HOME$/brew/Caskroom/miniconda/base/envs/ReturnDataFrame/bin:$PATH$" />
+      <env name="LD_LIBRARY_PATH" value="$USER_HOME$/brew/Caskroom/miniconda/base/envs/ReturnDataFrame/lib" />
+      <env name="DYLD_LIBRARY_PATH" value="$USER_HOME$/brew/Caskroom/miniconda/base/envs/ReturnDataFrame/lib/python3.9/site-packages/jep" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="jep_hello.JepHelloSparkExample" />
+    <module name="FromPythonToJava" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="jep_hello.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
